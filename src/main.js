@@ -18,22 +18,22 @@ window.addEventListener(
   function(event) {
     switch (event.key) {
       case "f":
-        audioPlay("../assets/music/1.mp3");
+        audioPlay("./assets/music/1.mp3");
         break;
       case "d":
-        audioPlay("../assets/music/2.mp3");
+        audioPlay("./assets/music/2.mp3");
         break;
       case "g":
-        audioPlay("../assets/music/3.mp3");
+        audioPlay("./assets/music/3.mp3");
         break;
       case "s":
-        audioPlay("../assets/music/4.mp3");
+        audioPlay("./assets/music/4.mp3");
         break;
       case "a":
-        audioPlay("../assets/music/5.mp3");
+        audioPlay("./assets/music/5.mp3");
         break;
       case "b":
-        audioPlay("../assets/music/6.mp3");
+        audioPlay("./assets/music/6.mp3");
         break;
     }
     event.preventDefault();
